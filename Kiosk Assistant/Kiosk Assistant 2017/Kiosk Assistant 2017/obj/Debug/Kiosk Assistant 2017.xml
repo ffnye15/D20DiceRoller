@@ -1,0 +1,239 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kiosk Assistant 2017
+</name>
+</assembly>
+<members>
+<member name="T:Kiosk_Assistant_2017.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._001_lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._001_lock1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._001_lock2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._002_security">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._002_security1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._003_three">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._003_three1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._004_key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._004_key1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._005_connection">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._005_connection1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._006_computer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._006_computer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._500px_Zamok_white_logo_with_1_cutout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources._500px_Zamok_white_logo_with_2_cutout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.back__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.bluie">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.cancel_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.compact">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.darkerblue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.Document">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.emergency_exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.enable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.freestanding">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.fushiamotherfucker">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.orange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.please_wait_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.pleasewait">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.power_button_off">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.purple">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.smallexitimg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.Transit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kiosk_Assistant_2017.My.Resources.Resources.tumblr_n6ukzroesr1r2geqjo1_500">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Kiosk_Assistant_2017.frmMain">
+ <summary>
+ This is an assistive program for our kiosks, so customers have an easier time getting set up. It pulls data in from an INI file that sits in its directory.
+ The INI name is harcoded, so that can't ever change.
+ </summary>
+</member>
+<member name="M:Kiosk_Assistant_2017.frmMain.Timer1_Tick(System.Object,System.EventArgs)">
+ <summary>
+ subroutines for the main form 
+ </summary>
+ 
+</member>
+<member name="M:Kiosk_Assistant_2017.frmMain.closebutton(System.Object,System.EventArgs)">
+ <summary>
+ Button press events
+ </summary>
+</member>
+<member name="M:Kiosk_Assistant_2017.frmLockDownSelect.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ This form is for the user to select the application they want to lock the kiosk down to. The Zamok1 button is commented, and the others are not. They are essentially a copy past job. 
+ I didn't bother to make it its own routine to pass variables to. Too much to fuck up.
+ </summary>
+</member>
+</members>
+</doc>

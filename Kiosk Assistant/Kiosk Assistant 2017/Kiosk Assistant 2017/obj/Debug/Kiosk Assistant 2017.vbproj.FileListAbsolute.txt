@@ -1,0 +1,69 @@
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.exe.config
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.exe
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.pdb
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.Resources.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.vbproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.exe
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.pdb
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmMain.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Data.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Data.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.vbprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.exe.licenses
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\MadMilkman.Ini.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\MadMilkman.Ini.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmWait.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.browserZamokConfig.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmConnectionHelp.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmLoginHelp.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.do_not_run_on_boot.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmLockDownSelect.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk_Assistant_2017.frmCustomPath.resources
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.vbproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.exe.manifest
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\bin\Debug\Kiosk Assistant 2017.application
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.TrustInfo.xml
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.exe.manifest
+D:\Documents\Visual Studio 2017\Projects\Kiosk Assistant\Kiosk Assistant 2017\Kiosk Assistant 2017\obj\Debug\Kiosk Assistant 2017.application

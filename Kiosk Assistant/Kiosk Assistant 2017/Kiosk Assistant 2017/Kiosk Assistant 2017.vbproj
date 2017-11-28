@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEC4EA61-7266-4C78-B7B0-02FBEF1B52B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Kiosk_Assistant_2017.My.MyApplication</StartupObject>
+    <RootNamespace>Kiosk_Assistant_2017</RootNamespace>
+    <AssemblyName>Kiosk Assistant 2017</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Kiosk Assistant 2017.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kiosk Assistant 2017.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>assistant.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="MadMilkman.Ini, Version=1.0.6.0, Culture=neutral, PublicKeyToken=4e0b5157a7ffbb74, processorArchitecture=MSIL">
+      <HintPath>..\packages\MadMilkman.Ini.1.0.6.0\lib\net20\MadMilkman.Ini.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Help page forms\browserZamokConfig.Designer.vb">
+      <DependentUpon>browserZamokConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help page forms\browserZamokConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="do_not_run_on_boot.Designer.vb">
+      <DependentUpon>do_not_run_on_boot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="do_not_run_on_boot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help page forms\frmConnectionHelp.Designer.vb">
+      <DependentUpon>frmConnectionHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help page forms\frmConnectionHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomPath.Designer.vb">
+      <DependentUpon>frmCustomPath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomPath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLockDownSelect.Designer.vb">
+      <DependentUpon>frmLockDownSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLockDownSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help page forms\frmLoginHelp.Designer.vb">
+      <DependentUpon>frmLoginHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help page forms\frmLoginHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWait.Designer.vb">
+      <DependentUpon>frmWait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ini_importer_module.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Help page forms\browserZamokConfig.resx">
+      <DependentUpon>browserZamokConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="do_not_run_on_boot.resx">
+      <DependentUpon>do_not_run_on_boot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help page forms\frmConnectionHelp.resx">
+      <DependentUpon>frmConnectionHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomPath.resx">
+      <DependentUpon>frmCustomPath.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLockDownSelect.resx">
+      <DependentUpon>frmLockDownSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help page forms\frmLoginHelp.resx">
+      <DependentUpon>frmLoginHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWait.resx">
+      <DependentUpon>frmWait.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assistant.ico" />
+    <None Include="Resources\Icons\power-button-off.png" />
+    <None Include="Resources\Icons\back.png" />
+    <None Include="Resources\Icons\back %281%29.png" />
+    <None Include="Resources\Icons\cancel-button.png" />
+    <None Include="Resources\Icons\emergency-exit.png" />
+    <None Include="Resources\500px Zamok white logo with 1 cutout.png" />
+    <None Include="Resources\500px Zamok white logo with 2 cutout.png" />
+    <Content Include="Resources\Icons\loading.gif" />
+    <None Include="Resources\smallexitimg.png" />
+    <None Include="Resources\pleasewait.png" />
+    <None Include="Resources\Tiles\enable.JPG" />
+    <None Include="Resources\please-wait-3.png" />
+    <None Include="Resources\tumblr_n6ukzroesr1r2geqjo1_500.gif" />
+    <None Include="Resources\loading.gif" />
+    <None Include="packages.config" />
+    <None Include="Resources\Kiosks\Transit.png" />
+    <None Include="Resources\Kiosks\freestanding.png" />
+    <None Include="Resources\Kiosks\Document.png" />
+    <None Include="Resources\Kiosks\compact.png" />
+    <None Include="Resources\Icons\icons.256\png\006-computer.png" />
+    <None Include="Resources\Icons\icons.256\png\005-connection.png" />
+    <None Include="Resources\Icons\icons.256\png\004-key.png" />
+    <None Include="Resources\Icons\icons.256\png\003-three.png" />
+    <None Include="Resources\Icons\icons.256\png\002-security.png" />
+    <None Include="Resources\Icons\icons.256\png\001-lock.png" />
+    <None Include="Resources\Backgrounds\background.jpg" />
+    <None Include="Resources\Backgrounds\bluie.png" />
+    <None Include="Resources\Backgrounds\fushiamotherfucker.png" />
+    <None Include="Resources\Backgrounds\green.png" />
+    <None Include="Resources\Backgrounds\orange.png" />
+    <None Include="Resources\Backgrounds\purple.png" />
+    <None Include="Resources\Backgrounds\darkerblue.png" />
+    <None Include="Resources\Backgrounds\red.png" />
+    <Content Include="Resources\Icons\001-lock.png" />
+    <Content Include="Resources\Icons\002-security.png" />
+    <Content Include="Resources\Icons\003-three.png" />
+    <Content Include="Resources\Icons\004-key.png" />
+    <Content Include="Resources\Icons\005-connection.png" />
+    <Content Include="Resources\Icons\006-computer.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

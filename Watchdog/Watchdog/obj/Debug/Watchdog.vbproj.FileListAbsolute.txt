@@ -1,0 +1,52 @@
+d:\documents\visual studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.vbprojResolveAssemblyReference.cache
+d:\documents\visual studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.Form1.resources
+d:\documents\visual studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.Resources.resources
+d:\documents\visual studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.vbproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Data.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Data.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\Kiosk Defender.exe.config
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\Kiosk Defender.exe
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\Kiosk Defender.pdb
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\Kiosk Defender.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Kiosk Defender.exe.licenses
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Kiosk Defender.exe
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Kiosk Defender.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Kiosk Defender.pdb
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\MadMilkman.Ini.dll
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\bin\Debug\MadMilkman.Ini.xml
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.frmPasswordEntry.resources
+D:\Documents\Visual Studio 2017\Projects\Watchdog\Watchdog\obj\Debug\Watchdog.vbproj.CoreCompileInputs.cache
