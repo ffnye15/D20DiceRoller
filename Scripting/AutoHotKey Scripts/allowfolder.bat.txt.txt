@@ -1,0 +1,3 @@
+for /R %%a in (*.exe) do (
+
+netsh advfirewall firewall add rule name="Zamok Allow Rule %%a" dir=out program="%%a" action=allow

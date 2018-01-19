@@ -1,0 +1,47 @@
+﻿; written for autohotkey
+; The Following process deletes the contents of the scan folder when Zamok is shut down. Checks for a live process and then if can't find it it wipes Zamok\Scans
+
+Loop
+{
+
+	; Checks for zamok process, assigns result to variable
+	Process, Exist, zamok.browser.exe
+
+	try 
+
+	{
+		; If it is not running, it deletes contents of directory. USE CAUTION WHEN EDITING THIS SCRIPT. IF IT IS NOT POINTED AT A DIRECTORY IT WILL NUKE THE FOLDER IT IS IN.
+		If (ErrorLevel = 0) 
+			
+		{
+			try
+			{
+				FileRemoveDir, C:\Advanced Kiosks\Zamok\Scans, 1
+			}
+			; If deletion fails it should do nothing. Uncomment below if you want a message box
+			catch
+			{
+				; MsgBox, Could not delete scans folder.
+				; Exit	
+			}
+		}
+	
+		; If zamok is running, the program does nothing.
+		Else 
+		{
+
+		}
+	
+	}
+
+	; if zamok.exe doesn't exist, this will close script and throw error message
+	catch
+	{
+		MsgBox, Zamok.exe not found! Check to make sure it is installed in the default pathway.
+		Exit
+	}
+
+; pauses script for 10 second before checking again.
+Sleep 1000	
+
+}       
