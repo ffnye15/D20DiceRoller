@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<META HTTP-EQUIV="refresh" CONTENT="120">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+body {
+    overflow-x:hidden;
+}
+</style>
+
+<body>
+<!–– defines top div, that holds picture carousel ––>
+<div style="width:1080px; height: 45%; background-color: #d3d3d3;">
+	<div style=" height:100%; background-color: #000000;">
+		<div class="w3-content w3-section" >
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/lzs9udH.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/M4t2Wkl.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/5fozizy.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/M4t2Wkl.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/0ZdCmPl.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/lzs9udH.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/fmyyo0w.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/NKzOwpR.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/Bb7ofWp.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/VwS0dbq.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/r7q1zZj.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/R8N7W0f.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/DI1afcp.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/Sge8HrH.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/nMXPgAf.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/5gXIjqG.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/DgLxd8w.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/RnuYynh.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/CjvQkWC.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/ACESZkd.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/Ku9ONwK.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/bU2tiYt.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/uc3CkiR.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/0QVb4pr.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/gxDA3sJ.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/6JKSHiV.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/kb66pYP.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/vH20yZi.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/SHa1v0r.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/FCF2jst.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/rJkyurx.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://i.imgur.com/pZ01fhP.jpg" style="height:100%">
+				<!–– carousel script. Defines content by referencing images' class field. ––>
+				<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 4000);    
+					}
+				</script>
+			</div>
+		</div>
+
+
+</div>
+
+<div style="width:100%; height:54%;">
+<iframe name="topframe" src="http://zamok.advancedkiosks.com/users/560462aa4b18060b0028fc74/kiosks/560462aa4b18060b0028fc7a/landing-page#/grid" frameborder="0" width="100%" height="100%" allign="middle" sandbox="allow-same-origin allow-scripts"></iframe>
+</div>
+
+</body>
+</html>

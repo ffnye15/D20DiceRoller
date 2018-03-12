@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<META HTTP-EQUIV="refresh" CONTENT="120">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!–– defines top div, that holds picture carousel ––>
+
+
+<div style="width:100%; height:33%;">
+
+	<div id="blueimp-video-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel blueimp-gallery-display blueimp-gallery-playing" style="display: block;">
+                           <div class="slides" style="width: 1518px;"><div class="slide" data-index="0" style="width: 506px; left: 0px; transition-duration: 0ms; transform: translate(506px, 0px) translateZ(0px);"><div class="video-content slide-content" title="Lorem Ipsum Dolor Sit Amet Consecteteur"><img class="toggle" src="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/792d3243-3e8e-49cf-bd5a-edfa127467e1.jpg" draggable="false"><video src="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/792d3243-3e8e-49cf-bd5a-edfa127467e1.jpg" controls=""></video><a target="_blank" download="Lorem Ipsum Dolor Sit Amet Consecteteur" href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4"></a></div></div><div class="slide" data-index="1" style="width: 506px; left: -506px; transition-duration: 400ms; transform: translate(-506px, 0px) translateZ(0px);"><div class="video-content slide-content" title="Curabitur non placerat lorem"><img class="toggle" src="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/aee8ba81-3552-4179-81b6-b58a895d6249.jpg" draggable="false"><video src="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/aee8ba81-3552-4179-81b6-b58a895d6249.jpg" controls=""></video><a target="_blank" download="Curabitur non placerat lorem" href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4"></a></div></div><div class="slide" data-index="2" style="width: 506px; left: -1012px; transition-duration: 400ms; transform: translate(0px, 0px) translateZ(0px);"><div class="video-content slide-content" title="Lorem Ipsum Dolor Sit Amet"><img class="toggle" src="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/a8fd54dc-943f-4a6a-8fb8-d78f6cf3546e.jpg" draggable="false"><video src="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/a8fd54dc-943f-4a6a-8fb8-d78f6cf3546e.jpg" controls=""></video><a target="_blank" download="Lorem Ipsum Dolor Sit Amet" href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4"></a></div></div></div>
+			<h3 class="title">Lorem Ipsum Dolor Sit Amet</h3><a class="prev">‹</a><a class="next">›</a><a class="close">×</a><a class="play-pause"></a><ol class="indicator"><li title="Lorem Ipsum Dolor Sit Amet Consecteteur" data-index="0" class=""></li><li title="Curabitur non placerat lorem" data-index="1" class=""></li><li title="Lorem Ipsum Dolor Sit Amet" data-index="2" class="active"></li></ol>
+		</div>
+	<div id="links"><a href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" title="Lorem Ipsum Dolor Sit Amet Consecteteur" type="video/mp4" data-poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/792d3243-3e8e-49cf-bd5a-edfa127467e1.jpg"></a><a href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" title="Curabitur non placerat lorem" type="video/mp4" data-poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/aee8ba81-3552-4179-81b6-b58a895d6249.jpg"></a><a href="https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4" title="Lorem Ipsum Dolor Sit Amet" type="video/mp4" data-poster="https://templates.usu.edu/ldp/galleries/.private_ldp/a104297/production/master/a8fd54dc-943f-4a6a-8fb8-d78f6cf3546e.jpg"></a></div>		
+	</div>
+
+<div style="width:100%; height: 33%; background-color: #d3d3d3;">
+	<div style=" height:100%; background-color: #000000;">
+		<div class="w3-content w3-section" >
+			<img class="mySlides w3-animate-fading" src="https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/fc/3037854-poster-p-1-this-app-peeks-inside-80000-foods-at-your-grocery-store.jpg" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://www.trentwoodfarms.com/Slide8.JPG" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="http://www.trentwoodfarms.com/Slide10.JPG" style="height:100%">
+			<img class="mySlides w3-animate-fading" src="https://i.ytimg.com/vi/8-OuVAA-IeA/maxresdefault.jpg" style="height:100%">
+		
+				<!–– carousel script. Defines content by referencing images' class field. ––>
+				<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 10000);    
+					}
+				</script>
+			</div>
+		</div>
+
+
+</div>
+<div style="width:100%; height:33%;">
+
+	<!–– houses user's homepage in an iframe ––>
+	<iframe name="topframe" src="https://www.google.com" frameborder="0" width="100%" height="100%" allign="middle" sandbox="allow-same-origin allow-scripts"></iframe>
+</div>
+
+</body>
+</html>

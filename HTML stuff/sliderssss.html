@@ -1,0 +1,105 @@
+<HTML>
+<head>
+<META HTTP-EQUIV="refresh" CONTENT="120">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+ <!–– defines sizing attributes, referenced by class="center fit" below ––>
+ 
+<style type="text/css">
+html, body {
+  overflow: hidden;
+}
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: auto;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+  }
+</style>
+
+<BODY>
+ <!–– defines pictures to inculde in carosel ––>
+<body style = "margin:0">
+<div style="left:0; background-color: #d3d3d3; top:0; width:1080; height:50%;">
+<img class="center fit" src="http://i.imgur.com/5fozizy.jpg">
+<img class="center fit" src="http://i.imgur.com/M4t2Wkl.jpg">
+<img class="center fit" src="http://i.imgur.com/0ZdCmPl.jpg">
+<img class="center fit" src="http://i.imgur.com/lzs9udH.jpg">
+<img class="center fit" src="http://i.imgur.com/fmyyo0w.jpg">
+<img class="center fit" src="http://i.imgur.com/NKzOwpR.jpg">
+<img class="center fit" src="http://i.imgur.com/Bb7ofWp.jpg">
+<img class="center fit" src="http://i.imgur.com/VwS0dbq.jpg">
+<img class="center fit" src="http://i.imgur.com/r7q1zZj.jpg">
+<img class="center fit" src="http://i.imgur.com/R8N7W0f.jpg">
+<img class="center fit" src="http://i.imgur.com/DI1afcp.jpg">
+<img class="center fit" src="http://i.imgur.com/Sge8HrH.jpg">
+<img class="center fit" src="http://i.imgur.com/nMXPgAf.jpg">
+<img class="center fit" src="http://i.imgur.com/5gXIjqG.jpg">
+<img class="center fit" src="http://i.imgur.com/DgLxd8w.jpg">
+<img class="center fit" src="http://i.imgur.com/RnuYynh.jpg">
+<img class="center fit" src="http://i.imgur.com/CjvQkWC.jpg">
+<img class="center fit" src="http://i.imgur.com/ACESZkd.jpg">
+<img class="center fit" src="http://i.imgur.com/Ku9ONwK.jpg">
+<img class="center fit" src="http://i.imgur.com/bU2tiYt.jpg">
+<img class="center fit" src="http://i.imgur.com/uc3CkiR.jpg">
+<img class="center fit" src="http://i.imgur.com/0QVb4pr.jpg">
+<img class="center fit" src="http://i.imgur.com/gxDA3sJ.jpg">
+<img class="center fit" src="http://i.imgur.com/6JKSHiV.jpg">
+<img class="center fit" src="http://i.imgur.com/kb66pYP.jpg">
+<img class="center fit" src="http://i.imgur.com/vH20yZi.jpg">
+<img class="center fit" src="http://i.imgur.com/SHa1v0r.jpg">
+<img class="center fit" src="http://i.imgur.com/FCF2jst.jpg">
+<img class="center fit" src="http://i.imgur.com/rJkyurx.jpg">
+<img class="center fit" src="http://i.imgur.com/pZ01fhP.jpg">
+
+ <!–– image roatrion carosel. Rotates every 4 seconds ––>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("center fit");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+</div>
+
+<br>
+
+<div style="left:; top:50%; width:1080; height:50%; clip:rect(0,381,381,0); ">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Natrona County Highschool</a>
+    </div>
+	 <!–– defines buttons and links of navigation bar ––>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="http://zamok.advancedkiosks.com/users/560462aa4b18060b0028fc74/kiosks/560462aa4b18060b0028fc7a/landing-page#/grid" target="topframe">Home</a></li>
+      <li><a href="http://www.natronacountyhs.org/" target="topframe">Natrona County Highshool</a></li>
+      <li><a href="http://www.4aconference.org/g5-bin/client.cgi?G5genie=456&school_id=12" target="topframe">Calendar</a></li>
+      <li><a href="http://www.natronacountyhs.org/academics.html" target="topframe">Academics</a></li>
+	  </ul>
+  </div>
+</nav>
+ <!–– houses user's homepage in an iframe ––>
+<iframe name="topframe" src="http://zamok.advancedkiosks.com/users/560462aa4b18060b0028fc74/kiosks/560462aa4b18060b0028fc7a/landing-page#/grid" frameborder="0" width="100%" height="100%" allign="middle" sandbox="allow-same-origin allow-scripts"></iframe>
+
+</div>
+
+</BODY></HTML>
