@@ -24,8 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnKill = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Timer1
@@ -33,16 +32,17 @@ Partial Class Form1
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 5000
         '
-        'PictureBox1
+        'btnKill
         '
-        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources.zamok2translarge
-        Me.PictureBox1.Location = New System.Drawing.Point(332, 244)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(300, 306)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.btnKill.AutoSize = True
+        Me.btnKill.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnKill.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnKill.Image = Global.WindowsApp1.My.Resources.Resources.zamok2translarge
+        Me.btnKill.Location = New System.Drawing.Point(0, 0)
+        Me.btnKill.Name = "btnKill"
+        Me.btnKill.Size = New System.Drawing.Size(673, 503)
+        Me.btnKill.TabIndex = 1
+        Me.btnKill.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -51,19 +51,18 @@ Partial Class Form1
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(673, 503)
         Me.ControlBox = False
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnKill)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnKill As Button
 End Class
