@@ -9,3 +9,6 @@ Send marshall@advancedkiosks.com
 return
 ^f12::
 Send Marshallnye1{!}
+return
+^f8::
+Send Advancedkiosks1{!}

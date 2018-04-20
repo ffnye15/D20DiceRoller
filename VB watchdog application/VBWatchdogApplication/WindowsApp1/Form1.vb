@@ -1,4 +1,7 @@
-﻿Public Class Form1
+﻿Imports System.IO
+
+Public Class Form1
+
 
     'defines variable for process scheck
     Dim applicaitonstatus() As Process
@@ -8,22 +11,46 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ''Sizes the window to take up full screen
-        'sizing()
+        sizing()
+
+        ''fetches arguments, here for testing. Function needs... 
+        ''to be added to statuschecker. Otherwise defining and importing global
+        ''variables is a massive pain in the ass
+        'fetcharguments()
 
         ''runs explorer killer
-        'explorerkill()
+        explorerkill()
 
         ''runs check on startup. 
-        'statuschecker()
+        statuschecker()
 
         ''starts timer
-        'Timer1.Start()
+        Timer1.Start()
 
-        'fetches arguments, here for testing
-        fetcharguments()
+
     End Sub
 
     Private Sub statuschecker()
+        'Pulls the command line arguments and places into an array
+        Dim args = Environment.GetCommandLineArgs()
+
+        'creates a string from arguments starting at 1 (position 0 is the watchdog filename)
+        'Define a null string, to which we add the individual arguments
+        Dim concatargs As String = ""
+        'concatargs = """" & args(1) & """" & " "
+        For i = 2 To args.Length - 1
+            concatargs = concatargs & (args(i)) & " "
+        Next
+
+        ''------------------------------------
+        'Timer1.Stop()
+        'Dim pathcheck As String = args(1)
+        ''Dim argcheck As String = args(2)
+        'MessageBox.Show("pathcheck is" & pathcheck)
+        ''MessageBox.Show(argcheck)
+        'MessageBox.Show("concatenated path is" & concatargs)
+        'Timer1.Stop()
+        ''------------------------------------
 
         'check to see if Zamok is alive
         applicaitonstatus = Process.GetProcessesByName("zamok.exe")
@@ -31,13 +58,28 @@
             'do nothing
         Else
             Try
-                'concantenates current direcotry and exe path
-                'Process.Start(wdir + "\Zamok.exe", "--kiosk-printing")
-                Process.Start(concat)
+                'Timer1.Stop()
+                ''concantenates current direcotry And exe path
+                MessageBox.Show(concatargs)
+                Process.Start(args(1) & concatargs)
+
+                Dim startInfo As New ProcessStartInfo(args(1))
+
+
+
+                startInfo.Arguments = concatargs
+
+                Process.Start(startInfo)
+
+
+                Me.Close()
+                Timer1.Start()
             Catch
                 'resolves error state if Zamok cannot be found. Ends timer to prevent multiple error messages and allow exit.
-                MessageBox.Show("Could not start Zamok.exe! Please check application path.")
+                MessageBox.Show("Could not start program. Please check arguments. Closing application. There is no god, only your suffering")
                 Timer1.Stop()
+                Me.Close()
+                End
             End Try
         End If
     End Sub
@@ -64,14 +106,15 @@
     End Sub
 
     Public Sub fetcharguments()
+        'Pulls the command line arguments
+        Dim args = Environment.GetCommandLineArgs()
+
+        'Define a null string, to wich we add the individual arguments
         Dim concatargs As String = ""
-        Dim clArgs() As String = Environment.GetCommandLineArgs()
-        ' Hold the command line values
 
-        For Each arg As String In clArgs = {1 To 3}
-            concatargs = concatargs & " " & arg
+        For i = 1 To args.Length - 1
+            concatargs = concatargs & (args(i)) & " "
         Next
-
         MessageBox.Show(concatargs)
     End Sub
 

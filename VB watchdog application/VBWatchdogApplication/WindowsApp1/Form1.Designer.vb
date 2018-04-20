@@ -35,9 +35,9 @@ Partial Class Form1
         'btnKill
         '
         Me.btnKill.AutoSize = True
-        Me.btnKill.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnKill.BackColor = System.Drawing.Color.Maroon
         Me.btnKill.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnKill.Image = Global.WindowsApp1.My.Resources.Resources.zamok2translarge
+        Me.btnKill.Image = Global.WindowsApp1.My.Resources.Resources.locked
         Me.btnKill.Location = New System.Drawing.Point(0, 0)
         Me.btnKill.Name = "btnKill"
         Me.btnKill.Size = New System.Drawing.Size(673, 503)
