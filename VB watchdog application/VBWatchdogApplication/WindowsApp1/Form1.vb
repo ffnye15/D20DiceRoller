@@ -32,11 +32,13 @@ Public Class Form1
 
     Private Sub statuschecker()
         'Pulls the command line arguments and places into an array
+        ''make a global variable
         Dim args = Environment.GetCommandLineArgs()
 
         'creates a string from arguments starting at 1 (position 0 is the watchdog filename)
         'Define a null string, to which we add the individual arguments
         Dim concatargs As String = ""
+
         'concatargs = """" & args(1) & """" & " "
         For i = 2 To args.Length - 1
             concatargs = concatargs & (args(i)) & " "
@@ -58,9 +60,9 @@ Public Class Form1
             'do nothing
         Else
             Try
-                'Timer1.Stop()
+                Timer1.Stop()
                 ''concantenates current direcotry And exe path
-                MessageBox.Show(concatargs)
+                '     MessageBox.Show(concatargs)
                 Process.Start(args(1) & concatargs)
 
                 Dim startInfo As New ProcessStartInfo(args(1))
@@ -72,7 +74,7 @@ Public Class Form1
                 Process.Start(startInfo)
 
 
-                Me.Close()
+                ' Me.Close()
                 Timer1.Start()
             Catch
                 'resolves error state if Zamok cannot be found. Ends timer to prevent multiple error messages and allow exit.
